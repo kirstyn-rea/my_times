@@ -45,3 +45,86 @@ div {
   align-items: center;
   color: MediumAquamarine;
 }
+
+.main {
+  display: flex;
+  margin: auto;
+}
+
+.column {
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  margin-right: 32px;
+  padding-top: 80px;
+}
+.column.large {
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  width: 630px;
+}
+.images {
+  display: flex;
+  font-family : georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.images.lead {
+  background-image: url(/home/kirstie/Desktop/Projects/CodecademyProjects/wk4_box/Resources/img-story-main.png);
+  background-repeat: no-repeat;
+  flex-grow: auto;
+}
+
+.lead {
+  font-size: 40px;
+}
+.story {
+  font-family: georgia;
+  font-size: 17px;
+  color: black;
+}
+.heading
+.images.earth {
+    background-image: url('/home/kirstie/Desktop/Projects/CodecademyProjects/wk4_box/Resources/img-story-2.png');
+    background-repeat: repeat;
+    align-items: center;
+    flex-grow: auto;
+    flex-shrink: auto;
+}
+.images.camera {
+  background-image: url('/home/kirstie/Desktop/Projects/CodecademyProjects/wk4_box/Resources/img-story-3.png');
+  background-repeat: repeat;
+  align-items: center;
+  flex-grow: auto;
+  flex-shrink: auto;
+}
+
+.column.medium {
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  width: 300px;
+}
+.images.cat {
+  background-image: url('/home/kirstie/Desktop/Projects/CodecademyProjects/wk4_box/Resources/img-story-1.png');
+  background-repeat: no-repeat;}
+
+.column.small {
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  width: 240px;
+}
+.cookie {
+  display: flex;
+  flex-grow: auto;
+}
+.bites {
+  display: flex;
+  font-family: georgia;
+  font-size: 17px;
+  color: black;
+  background-color: gray;
+}
